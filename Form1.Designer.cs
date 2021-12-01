@@ -68,10 +68,13 @@ namespace Ultra_Command
             // 
             // SpeechRecordedTextBox
             // 
-            this.SpeechRecordedTextBox.Location = new System.Drawing.Point(12, 37);
+            this.SpeechRecordedTextBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.SpeechRecordedTextBox.Location = new System.Drawing.Point(13, 37);
             this.SpeechRecordedTextBox.Multiline = true;
             this.SpeechRecordedTextBox.Name = "SpeechRecordedTextBox";
-            this.SpeechRecordedTextBox.Size = new System.Drawing.Size(681, 391);
+            this.SpeechRecordedTextBox.ReadOnly = true;
+            this.SpeechRecordedTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.SpeechRecordedTextBox.Size = new System.Drawing.Size(680, 393);
             this.SpeechRecordedTextBox.TabIndex = 0;
             // 
             // ListenBtn
@@ -82,6 +85,7 @@ namespace Ultra_Command
             this.ListenBtn.TabIndex = 1;
             this.ListenBtn.Text = "Listen";
             this.ListenBtn.UseVisualStyleBackColor = true;
+            this.ListenBtn.Click += new System.EventHandler(this.ListenBtn_Click);
             // 
             // StopBtn
             // 
@@ -91,6 +95,7 @@ namespace Ultra_Command
             this.StopBtn.TabIndex = 2;
             this.StopBtn.Text = "Stop";
             this.StopBtn.UseVisualStyleBackColor = true;
+            this.StopBtn.Click += new System.EventHandler(this.StopBtn_Click);
             // 
             // menuStrip1
             // 
