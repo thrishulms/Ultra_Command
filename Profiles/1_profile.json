@@ -1,0 +1,24 @@
+{
+    "Name": "Test Profile",
+    "CreatedAt": "2021-11-28",
+    "VoiceCommands":[
+        {
+            "Name": "Change Tab",
+            "TriggerKeywords": ["change tab", "switch tab"],
+            "Commands":[{
+                "Type": "KeyPress",
+                "Execute": ["shift", "a"]
+            }],
+            "Say": ["Changing tab"]
+        },
+        {
+            "Name": "Weapons Activate",
+            "TriggerKeywords": ["weapons activate", "activate weapons", "weapons hot", "prepare to engage"],
+            "Commands":[{
+                "Type": "Key Press",
+                "Execute": ["shift", "b"]
+            }],
+            "Say": ["Arming weapons.", "weapons activated.", "Primary Weapons Activated.", "Ready to rock and load.", "Let's blow up some enemies."]
+        }
+    ]
+}

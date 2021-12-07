@@ -1,0 +1,24 @@
+{
+    "Name": "Ghost Recon Wildlands Profile",
+    "CreatedAt": "2021-11-28",
+    "VoiceCommands":[
+        {
+            "Name": "Drone Activate",
+            "TriggerKeywords": ["drone active", "activate drone"],
+            "Commands":[{
+                "Type": "Key Press",
+                "Execute": ["z"]
+            }],
+            "Say": ["Drone Online"]
+        },
+        {
+            "Name": "Drone Deactivate",
+            "TriggerKeywords": ["drone deactivate", "deactivate drone"],
+            "Commands":[{
+                "Type": "Key Press",
+                "Execute": ["z"]
+            }],
+            "Say": ["Drone Offline"]
+        }
+    ]
+}
