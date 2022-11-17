@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Ultra_Command"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Button x:Name="Recording_Button" Content="START/STOP RECORDING" HorizontalAlignment="Left" Margin="566,20,0,0" VerticalAlignment="Top" Width="146" Height="50"/>
+        <Button x:Name="Recording_Button" Content="START/STOP RECORDING" HorizontalAlignment="Left" Margin="566,20,0,0" VerticalAlignment="Top" Width="146" Height="50" Click="Recording_Button_Click"/>
         <TextBox x:Name="Listening_Logs" HorizontalAlignment="Left" Height="301" Margin="90,94,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="622" IsEnabled="False"/>
 
     </Grid>
