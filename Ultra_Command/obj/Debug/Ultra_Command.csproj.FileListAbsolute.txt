@@ -1,0 +1,15 @@
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\bin\Debug\Ultra_Command.exe.config
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\bin\Debug\Ultra_Command.exe
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\bin\Debug\Ultra_Command.pdb
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\obj\Debug\Ultra_Command.csproj.AssemblyReference.cache
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\obj\Debug\MainWindow.g.cs
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\obj\Debug\App.g.cs
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\obj\Debug\Ultra_Command_MarkupCompile.cache
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\obj\Debug\Ultra_Command_MarkupCompile.lref
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\obj\Debug\MainWindow.baml
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\obj\Debug\Ultra_Command.g.resources
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\obj\Debug\Ultra_Command.Properties.Resources.resources
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\obj\Debug\Ultra_Command.csproj.GenerateResource.cache
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\obj\Debug\Ultra_Command.csproj.CoreCompileInputs.cache
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\obj\Debug\Ultra_Command.exe
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\obj\Debug\Ultra_Command.pdb
