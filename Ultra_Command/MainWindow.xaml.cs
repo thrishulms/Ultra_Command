@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Speech.Recognition;
 using System.Speech.Synthesis;
@@ -32,6 +33,7 @@ namespace Ultra_Command
             _isListening = false;
             _speechSynthesizer = new SpeechSynthesizer();
             InitializeComponent();
+            // read from file
         }
 
 
@@ -53,10 +55,10 @@ namespace Ultra_Command
                 _speechSynthesizer.Pause();
                 _recognizer = new SpeechRecognitionEngine(new System.Globalization.CultureInfo("en-US"));
 
-                var listOfCommands = ["Activate Commands", "Activate Commands", "Arm Weapons"];
-                
-                // Create and load a dictation grammar.  
-                _recognizer.LoadGrammar(new DictationGrammar());
+                // greaemmer to be set to my custom commands
+                _recognizer.LoadGrammarAsync(new Grammar(new GrammarBuilder(new Choices(File.ReadAllLines(@"Profiles/Profile1.txt")))));
+                _recognizer.SpeechRecognized += new EventHandler<SpeechRecognizedEventArgs>(Default_SpeechRecognized);
+                // _recognizer.SpeechDetected += new EventHandler<SpeechDetectedEventArgs>(Recognizer_SpeechRecognized);
 
                 // Configure input to the speech recognizer.  
                 _recognizer.SetInputToDefaultAudioDevice();
@@ -70,6 +72,19 @@ namespace Ultra_Command
             }
 
 
+        }
+
+        private void Recognizer_SpeechRecognized(object sender, SpeechDetectedEventArgs e)
+        {
+        }
+
+        private void Default_SpeechRecognized(object sender, SpeechRecognizedEventArgs e)
+        {
+            var text = e.Result.Text;
+            if(text.ToLower() == "Hello".ToLower())
+            {
+                Listening_Logs.AppendText($"\r\nCOMMAND : Received Hello");
+            }
         }
 
         // Handle the SpeechRecognized event.  
