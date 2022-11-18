@@ -1,0 +1,6 @@
+﻿Hello
+Weapons Active
+Weapons Deactivate
+System Online
+Emergency Stop
+Stop

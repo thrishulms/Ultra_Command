@@ -1,0 +1,84 @@
+{
+  "Name": "ED Profile",
+  "VoiceCommands": [
+    {
+      "Name": "Hello",
+      "TriggerKeywords": [ "hello", "hi", "hey" ],
+      "Commands": [],
+      "Say": [ "Hi", "Hello", "Hi, How are You Commander ?" ]
+    },
+    {
+      "Name": "How Are You",
+      "TriggerKeywords": [ "how are you", "how have you been" ],
+      "Commands": [],
+      "Say": [ "I am lovely Commander", "I am great.", "Ready to rock and roll. Commander." ]
+    },
+    {
+      "Name": "Request Docking",
+      "TriggerKeywords": [ "docking", "request docking" ],
+      "Commands": [
+        {
+          "Type": "KeyPress",
+          "Execute": [ "A", "B" ]
+        }
+      ],
+      "Say": [ "Docking procedure activated" ]
+    },
+    {
+      "Name": "Speed -100%",
+      "TriggerKeywords": [ "speed -100%", "speed to 100%" ],
+      "Commands": [
+        {
+          "Type": "KeyPress",
+          "Execute": [ "LControlKey", "Q" ]
+        }
+      ],
+      "Say": [ "Speed decreaded to -100%" ]
+    },
+    {
+      "Name": "Stop",
+      "TriggerKeywords": [ "Stop" ],
+      "Commands": [
+        {
+          "Type": "KeyPress",
+          "Execute": [ "X" ]
+        }
+      ],
+      "Say": [ "Emergency Stop Initiated", "Stopping" ]
+    },
+    {
+      "Name": "Secondary Monitor",
+      "TriggerKeywords": [ "Secondary monitor" ],
+      "Commands": [
+        {
+          "Type": "KeyPress",
+          "Execute": [ "D4" ]
+        }
+      ],
+      "Say": [ "Secondary Monitor." ]
+    },
+    {
+      "Name": "Look Front",
+      "TriggerKeywords": [ "Look Front", "Close Menu", "Escape" ],
+      "Commands": [
+        {
+          "Type": "KeyPress",
+          "Execute": [ "Escape" ]
+        }
+      ],
+      "Say": [ "Where to now commander?", "Roger that." ]
+    },
+    {
+      "Name": "Primary Monitor",
+      "TriggerKeywords": [ "Primary Monitor" ],
+      "Commands": [
+        {
+          "Type": "KeyPress",
+          "Execute": [ "D1" ]
+        }
+      ],
+      "Say": [ "Primary Monitor" ]
+    }
+
+  ]
+}
