@@ -13,3 +13,9 @@ C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\obj\Debug\Ultra
 C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\obj\Debug\Ultra_Command.exe
 C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\obj\Debug\Ultra_Command.pdb
 C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\bin\Debug\Profiles\Profile1.txt
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\bin\Debug\Newtonsoft.Json.dll
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\bin\Debug\Newtonsoft.Json.xml
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\obj\Debug\Ultra_Command.csproj.AssemblyReference.cache
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\obj\Debug\Ultra_Command.csproj.CopyComplete
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\bin\Debug\Profiles\EliteDangerous.json
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\bin\Debug\InputManager.dll

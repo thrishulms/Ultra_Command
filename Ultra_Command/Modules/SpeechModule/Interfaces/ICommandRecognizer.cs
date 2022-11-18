@@ -8,5 +8,10 @@ namespace Ultra_Command.Profiles.Modules.SpeechModule.Interfaces
 {
     public interface ICommandRecognizer
     {
+        void CreateSpeechSystem();
+
+        void StartListening();
+
+        void StopListening();
     }
 }
