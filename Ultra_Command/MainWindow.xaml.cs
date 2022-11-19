@@ -1,21 +1,19 @@
-﻿using Newtonsoft.Json;
+﻿using InputManager;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Speech.Recognition;
 using System.Speech.Synthesis;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using System.Windows.Forms;
 using Ultra_Command.Models;
 
 namespace Ultra_Command
@@ -112,23 +110,33 @@ namespace Ultra_Command
 
         private void ExecuteCommands(VoiceCommand voiceCommand)
         {
-            //var allKeyPresses = voiceCommand.Commands.Select(x => x.Execute);
-            //foreach (var keyPress in allKeyPresses)
-            //{
-            //    if (keyPress.ToList().Count == 1)
-            //    {
-            //        // Keyboard.KeyDown(Keys.D1);
-            //        Keyboard.KeyDown(keyPress.ElementAt(0));
-            //        Thread.Sleep(100);
-            //        Keyboard.KeyUp(keyPress.ElementAt(0));
-            //    }
-            //    else if (keyPress.ToList().Count >= 2)
-            //    {
-            //        Keyboard.ShortcutKeys(keyPress.ToArray());
-            //    }
-            //}
+            var allKeyPresses = voiceCommand.Commands.Select(x => x.Execute);
+            foreach (var keyPress in allKeyPresses)
+            {
+                if (keyPress.ToList().Count == 1)
+                {
+                    //Keyboard.KeyDown(keyPress.ElementAt(0));
+                    //Thread.Sleep(50);
+                    //Keyboard.KeyUp(keyPress.ElementAt(0));
+                    Keyboard.ShortcutKeys(keyPress.ToArray());
+                }
+                else if (keyPress.ToList().Count >= 2)
+                {
+                    Keyboard.ShortcutKeys(keyPress.ToArray());
+                }
+            }
 
-            //Speak(voiceCommand.Say.ToList());
+            Speak(voiceCommand.Say.ToList());
+        }
+
+        private void Speak(List<string> list)
+        {
+            var random = new Random();
+            int index = random.Next(list.Count);
+            var synthesizer = new SpeechSynthesizer();
+            synthesizer.SetOutputToDefaultAudioDevice();
+            synthesizer.Rate = 0;
+            synthesizer.Speak(list.ElementAt(index));
         }
 
         public void UpdateTextBox(string text)
