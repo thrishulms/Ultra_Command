@@ -34,8 +34,18 @@ namespace Ultra_Command
             _isListening = false;
             _speechSynthesizer = new SpeechSynthesizer();
             InitializeComponent();
+            LoadProfiles();
             LoadFile();
-            // read from file
+        }
+
+        private void LoadProfiles()
+        {
+            string profilesPath = System.AppDomain.CurrentDomain.BaseDirectory + "Profiles\\";
+            var myFiles = Directory.GetFiles(profilesPath, "*.json", SearchOption.AllDirectories);
+            foreach(var file in myFiles)
+            {
+                ProfileSelector.Items.Add(file);
+            }
         }
 
         private void LoadFile()

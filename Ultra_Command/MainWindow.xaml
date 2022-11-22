@@ -8,6 +8,7 @@
         Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="0"/>
         </Grid.ColumnDefinitions>
@@ -15,8 +16,10 @@
             <RowDefinition Height="100"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Button Grid.Column="0" Grid.Row="0" x:Name="Recording_Button" Content="START/STOP RECORDING" Width="146" Height="50" Click="Recording_Button_Click"/>
+        <Button Grid.Column="1" Grid.Row="0" x:Name="Recording_Button" Content="START/STOP RECORDING" Width="146" Height="50" Click="Recording_Button_Click"/>
+        
         <TextBox Grid.Column="0" Grid.Row="1" x:Name="Listening_Logs" Margin="10,10,10,10" ScrollViewer.VerticalScrollBarVisibility="Auto" TextWrapping="Wrap" Text="TEST" IsEnabled="False"/>
+        <ComboBox x:Name="ProfileSelector" Grid.Column="0" Grid.Row="0" Height="25" Width="200"/>
 
     </Grid>
 </Window>
