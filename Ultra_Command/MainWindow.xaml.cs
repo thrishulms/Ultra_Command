@@ -48,9 +48,12 @@ namespace Ultra_Command
             }
         }
 
-        private void LoadFile()
+        private void LoadFile(string filePath = null)
         {
-            var filePath = System.IO.Directory.GetCurrentDirectory() + "\\Profiles\\EliteDangerous.json";
+            if(filePath == null)
+            {
+                filePath = System.IO.Directory.GetCurrentDirectory() + "\\Profiles\\EliteDangerous.json";
+            }
             using (StreamReader r = new StreamReader(filePath))
             {
                 string json = r.ReadToEnd();
@@ -153,6 +156,11 @@ namespace Ultra_Command
         {
             Listening_Logs.AppendText($"\r\n{text}");
             Listening_Logs.ScrollToEnd();
+        }
+
+        private void ProfileSelector_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+            LoadFile(e.AddedItems[0].ToString());
         }
     }
 }
