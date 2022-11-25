@@ -139,7 +139,10 @@ namespace Ultra_Command
                 }
             }
 
-            Speak(voiceCommand.Say.ToList());
+            if(voiceCommand.Say.ToList().Count > 0)
+            {
+                Speak(voiceCommand.Say.ToList());
+            }
         }
 
         private void Speak(List<string> list)
