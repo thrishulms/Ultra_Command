@@ -24,3 +24,6 @@ C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\bin\Debug\Ultra
 C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\obj\Debug\Ultra_Command.exe.manifest
 C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\obj\Debug\Ultra_Command.application
 C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\bin\Debug\Profiles\GhostRecon_WildLands.json
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\bin\Debug\Profiles\EditProfile.json
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\obj\Debug\Windows\ProfileWindow.g.cs
+C:\Users\thris\Documents\PROJECTS\C#\Ultra Command\Ultra_Command\obj\Debug\Windows\ProfileWindow.baml

@@ -66,14 +66,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ultra_Command.exe" size="16864">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ultra_Command.exe" size="18912">
       <assemblyIdentity name="Ultra_Command" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>mt1neCVBHf4slXpDBAgcnX/SuuzvMogIEGt+MqgpCmo=</dsig:DigestValue>
+        <dsig:DigestValue>/O3EXyV9W3no+cCMUUD9Uyroa2dr4ZDjEpXxhMCOWpY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

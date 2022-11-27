@@ -15,6 +15,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Forms;
 using Ultra_Command.Models;
+using Ultra_Command.Windows;
 
 namespace Ultra_Command
 {
@@ -164,6 +165,12 @@ namespace Ultra_Command
         private void ProfileSelector_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
         {
             LoadFile(e.AddedItems[0].ToString());
+        }
+
+        private void Edit_Profile_Btn_Click(object sender, RoutedEventArgs e)
+        {
+            ProfileWindow profileWindow = new ProfileWindow();
+            profileWindow.Show();
         }
     }
 }

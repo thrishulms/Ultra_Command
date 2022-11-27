@@ -1,0 +1,112 @@
+{
+  "Name": "ED Profile",
+  "VoiceCommands": [
+    {
+      "Name": "Check_Active",
+      "TriggerKeywords": [ "active" ],
+      "Commands": [],
+      "Say": [ "Ultra Command Active" ]
+    },
+    {
+      "Name": "Guns_For_Hire",
+      "TriggerKeywords": [ "need backup", "guns for hire" ],
+      "Commands": [
+        {
+          "Type": "KeyPress",
+          "Execute": [ "Tab", "2" ]
+        }
+      ],
+      "Say": []
+    },
+    {
+      "Name": "Spotting",
+      "TriggerKeywords": [ "need recon", "spotting" ],
+      "Commands": [
+        {
+          "Type": "KeyPress",
+          "Execute": [ "Tab", "5" ]
+        }
+      ],
+      "Say": []
+    },
+    {
+      "Name": "Diversion",
+      "TriggerKeywords": [ "need a diversion", "need diversion" ],
+      "Commands": [
+        {
+          "Type": "KeyPress",
+          "Execute": [ "Tab", "4" ]
+        }
+      ],
+      "Say": []
+    },
+    {
+      "Name": "Help",
+      "TriggerKeywords": [ "need help", "help" ],
+      "Commands": [
+        {
+          "Type": "KeyPress",
+          "Execute": [ "Tab", "C" ]
+        }
+      ],
+      "Say": []
+    },
+    {
+      "Name": "WellDone",
+      "TriggerKeywords": [ "well done", "good job" ],
+      "Commands": [
+        {
+          "Type": "KeyPress",
+          "Execute": [ "Tab", "V" ]
+        }
+      ],
+      "Say": []
+    },
+    {
+      "Name": "Squad_Fire",
+      "TriggerKeywords": [ "squad fire", "fire fire", "open fire" ],
+      "Commands": [
+        {
+          "Type": "KeyPress",
+          "Execute": [ "Tab", "F1" ]
+        }
+      ],
+      "Say": []
+    },
+    {
+      "Name": "Regroup",
+      "TriggerKeywords": [ "squad regroup", "regroup", "regroup on me" ],
+      "Commands": [
+        {
+          "Type": "KeyPress",
+          "Execute": [ "Tab", "F4" ]
+        }
+      ],
+      "Say": []
+    },
+    {
+      "Name": "Squad_Go_There",
+      "TriggerKeywords": [ "squad go there", "move there" ],
+      "Commands": [
+        {
+          "Type": "KeyPress",
+          "Execute": [ "Tab", "F3" ]
+        }
+      ],
+      "Say": []
+    },
+    {
+      "Name": "Squad_Hold",
+      "TriggerKeywords": [ "squad hold", "hold position" ],
+      "Commands": [
+        {
+          "Type": "KeyPress",
+          "Execute": [ "Tab", "F2" ]
+        }
+      ],
+      "Say": []
+    }
+
+
+  ]
+}
