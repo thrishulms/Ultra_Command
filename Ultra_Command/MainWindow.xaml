@@ -8,6 +8,7 @@
         Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="0"/>
         </Grid.ColumnDefinitions>
@@ -15,8 +16,12 @@
             <RowDefinition Height="100"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Button Grid.Column="0" Grid.Row="0" x:Name="Recording_Button" Content="START/STOP RECORDING" Width="146" Height="50" Click="Recording_Button_Click"/>
+        <Button Grid.Column="1" Grid.Row="0" x:Name="Recording_Button" Content="START/STOP RECORDING" Width="146" Height="50" Click="Recording_Button_Click"/>
+        
         <TextBox Grid.Column="0" Grid.Row="1" x:Name="Listening_Logs" Margin="10,10,10,10" ScrollViewer.VerticalScrollBarVisibility="Auto" TextWrapping="Wrap" Text="TEST" IsEnabled="False"/>
+        <ComboBox x:Name="ProfileSelector" Grid.Column="0" Grid.Row="0" Height="25" Width="200" SelectionChanged="ProfileSelector_SelectionChanged" Margin="33,35,362.2,40"/>
+        <Button x:Name="Edit_Profile_Btn" Content="EDIT" HorizontalAlignment="Left" Margin="258,35,0,0" VerticalAlignment="Top" Width="75" Height="25" Click="Edit_Profile_Btn_Click"/>
+        <Button x:Name="New_Profile_Button" Content="NEW" HorizontalAlignment="Left" Margin="356,35,0,0" VerticalAlignment="Top" Width="75" Height="25"/>
 
     </Grid>
 </Window>
