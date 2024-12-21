@@ -1,0 +1,23 @@
+{
+  "Name": "MW5",
+  "VoiceCommands": [
+    {
+      "Name": "Check_Active",
+      "TriggerKeywords": [ "active" ],
+      "Commands": [],
+      "Say": [ "Ultra Command Active" ]
+    },
+    {
+      "Name": "Check_Active",
+      "TriggerKeywords": [ "hello" ],
+      "Commands": [],
+      "Say": [ "Hi, im active" ]
+    },
+    {
+      "Name": "Check_Active",
+      "TriggerKeywords": [ "attack" ],
+      "Commands": [],
+      "Say": [ ]
+    }
+  ]
+}

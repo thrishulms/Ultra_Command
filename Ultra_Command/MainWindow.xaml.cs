@@ -53,7 +53,7 @@ namespace Ultra_Command
         {
             if(filePath == null)
             {
-                filePath = System.IO.Directory.GetCurrentDirectory() + "\\Profiles\\EliteDangerous.json";
+                filePath = System.IO.Directory.GetCurrentDirectory() + "\\Profiles\\MW5.json";
             }
             using (StreamReader r = new StreamReader(filePath))
             {
@@ -118,6 +118,9 @@ namespace Ultra_Command
                 {
                     ExecuteCommands(voiceCommand);
                     UpdateTextBox(e.Result.Text);
+                } else
+                {
+                    UpdateTextBox("Unrecognized command : " + e.Result.Text);
                 }
             }
         }
@@ -169,7 +172,7 @@ namespace Ultra_Command
 
         private void Edit_Profile_Btn_Click(object sender, RoutedEventArgs e)
         {
-            ProfileWindow profileWindow = new ProfileWindow();
+            ProfileWindow profileWindow = new ProfileWindow(_currentProfile);
             profileWindow.Show();
         }
     }

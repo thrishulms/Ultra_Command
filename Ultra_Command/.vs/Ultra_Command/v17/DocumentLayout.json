@@ -1,0 +1,273 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|c:\\users\\thris\\onedrive\\documents\\projects\\c# stuff\\ultra_command\\ultra_command\\windows\\profilewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|solutionrelative:windows\\profilewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|c:\\users\\thris\\onedrive\\documents\\projects\\c# stuff\\ultra_command\\ultra_command\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|c:\\users\\thris\\onedrive\\documents\\projects\\c# stuff\\ultra_command\\ultra_command\\profiles\\mw5.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|solutionrelative:profiles\\mw5.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|c:\\users\\thris\\onedrive\\documents\\projects\\c# stuff\\ultra_command\\ultra_command\\profiles\\elitedangerous.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|solutionrelative:profiles\\elitedangerous.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|c:\\users\\thris\\onedrive\\documents\\projects\\c# stuff\\ultra_command\\ultra_command\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|c:\\users\\thris\\onedrive\\documents\\projects\\c# stuff\\ultra_command\\ultra_command\\profiles\\ghostrecon_wildlands.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|solutionrelative:profiles\\ghostrecon_wildlands.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|c:\\users\\thris\\onedrive\\documents\\projects\\c# stuff\\ultra_command\\ultra_command\\windows\\profilewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|solutionrelative:windows\\profilewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Ultra_Command||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|c:\\users\\thris\\onedrive\\documents\\projects\\c# stuff\\ultra_command\\ultra_command\\profile1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|solutionrelative:profile1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|c:\\users\\thris\\onedrive\\documents\\projects\\c# stuff\\ultra_command\\ultra_command\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|solutionrelative:models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|c:\\users\\thris\\onedrive\\documents\\projects\\c# stuff\\ultra_command\\ultra_command\\models\\voicecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|solutionrelative:models\\voicecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|c:\\users\\thris\\onedrive\\documents\\projects\\c# stuff\\ultra_command\\ultra_command\\models\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|solutionrelative:models\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|c:\\users\\thris\\onedrive\\documents\\projects\\c# stuff\\ultra_command\\ultra_command\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|c:\\users\\thris\\onedrive\\documents\\projects\\c# stuff\\ultra_command\\ultra_command\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|c:\\users\\thris\\onedrive\\documents\\projects\\c# stuff\\ultra_command\\ultra_command\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F7DAEF-E282-48E3-B65F-3CE4B7FF5DC2}|Ultra_Command.csproj|c:\\users\\thris\\onedrive\\documents\\projects\\c# stuff\\ultra_command\\ultra_command\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfileWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\Windows\\ProfileWindow.xaml",
+              "RelativeDocumentMoniker": "Windows\\ProfileWindow.xaml",
+              "ToolTip": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\Windows\\ProfileWindow.xaml",
+              "RelativeToolTip": "Windows\\ProfileWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-21T10:00:23.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MW5.json",
+              "DocumentMoniker": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\Profiles\\MW5.json",
+              "RelativeDocumentMoniker": "Profiles\\MW5.json",
+              "ToolTip": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\Profiles\\MW5.json",
+              "RelativeToolTip": "Profiles\\MW5.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-21T09:59:36.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GhostRecon_WildLands.json",
+              "DocumentMoniker": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\Profiles\\GhostRecon_WildLands.json",
+              "RelativeDocumentMoniker": "Profiles\\GhostRecon_WildLands.json",
+              "ToolTip": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\Profiles\\GhostRecon_WildLands.json",
+              "RelativeToolTip": "Profiles\\GhostRecon_WildLands.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-21T09:55:24.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-21T09:42:18.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:37:06.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Profile1.txt",
+              "DocumentMoniker": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\Profile1.txt",
+              "RelativeDocumentMoniker": "Profile1.txt",
+              "ToolTip": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\Profile1.txt",
+              "RelativeToolTip": "Profile1.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-21T09:42:12.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Ultra_Command",
+              "DocumentMoniker": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\Ultra_Command.csproj",
+              "RelativeDocumentMoniker": "Ultra_Command.csproj",
+              "ToolTip": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\Ultra_Command.csproj",
+              "RelativeToolTip": "Ultra_Command.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-21T09:41:56.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\Models\\Profile.cs",
+              "RelativeDocumentMoniker": "Models\\Profile.cs",
+              "ToolTip": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\Models\\Profile.cs",
+              "RelativeToolTip": "Models\\Profile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:51:23.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EliteDangerous.json",
+              "DocumentMoniker": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\Profiles\\EliteDangerous.json",
+              "RelativeDocumentMoniker": "Profiles\\EliteDangerous.json",
+              "ToolTip": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\Profiles\\EliteDangerous.json",
+              "RelativeToolTip": "Profiles\\EliteDangerous.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-21T09:51:30.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProfileWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\Windows\\ProfileWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Windows\\ProfileWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\Windows\\ProfileWindow.xaml.cs",
+              "RelativeToolTip": "Windows\\ProfileWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T10:03:22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VoiceCommand.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\Models\\VoiceCommand.cs",
+              "RelativeDocumentMoniker": "Models\\VoiceCommand.cs",
+              "ToolTip": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\Models\\VoiceCommand.cs",
+              "RelativeToolTip": "Models\\VoiceCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:51:25.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Command.cs",
+              "DocumentMoniker": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\Models\\Command.cs",
+              "RelativeDocumentMoniker": "Models\\Command.cs",
+              "ToolTip": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\Models\\Command.cs",
+              "RelativeToolTip": "Models\\Command.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:51:22.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\packages.config",
+              "RelativeDocumentMoniker": "packages.config",
+              "ToolTip": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\packages.config",
+              "RelativeToolTip": "packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-21T09:42:16.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-21T09:42:25.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\thris\\OneDrive\\Documents\\Projects\\C# Stuff\\Ultra_Command\\Ultra_Command\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-21T09:42:27.944Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

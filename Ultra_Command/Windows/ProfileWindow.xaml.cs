@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Ultra_Command.Models;
 
 namespace Ultra_Command.Windows
 {
@@ -19,9 +20,13 @@ namespace Ultra_Command.Windows
     /// </summary>
     public partial class ProfileWindow : Window
     {
-        public ProfileWindow()
+        private Profile _currentProfile;
+
+        public ProfileWindow(Profile currentProfile)
         {
+            _currentProfile = currentProfile;
             InitializeComponent();
+            ProfileName.Content = _currentProfile.Name;
         }
     }
 }

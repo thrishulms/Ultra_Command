@@ -7,7 +7,30 @@
         mc:Ignorable="d"
         Title="ProfileWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="TEST" HorizontalAlignment="Left" Margin="375,189,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ProfileName" Content="Profile Title" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
 
+        <Grid>
+            <DataGrid x:Name="DataGridExample" AutoGenerateColumns="False" Margin="10,38,10,74">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*" />
+                    <DataGridTextColumn Header="Actions" Binding="{Binding Actions}" Width="*" />
+                    <DataGridTemplateColumn Header="Edit" Width="Auto">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="Edit" Command="{Binding Edit}" />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="Delete" Width="Auto">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="Delete" Command="{Binding Delete}" />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
     </Grid>
 </Window>
